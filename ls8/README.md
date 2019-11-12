@@ -60,7 +60,13 @@ but you'll have to implement those three above instructions first!
 ## Step 0: IMPORTANT: inventory what is here!
 
 * Make a list of files here.
+1- cpu.py
+2- ls8.py
+3- README.md
 * Write a short 3-10-word description of what each file does.
+1- Defines the CPU class
+2- File that we're running
+3- Instructs us whats to do
 * Note what has been implemented, and what hasn't.
 * Read this whole file.
 * Skim the spec.
