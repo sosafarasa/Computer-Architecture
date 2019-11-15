@@ -50,7 +50,7 @@ class CPU:
             print("The program name is required")
             sys.exit()
         
-        while open(sys.argv[1]) as f:
+        with open(sys.argv[1]) as f:
             for line in f:
                 if line[0] != '#' and line != '\n':
                     self.ram[address] = int(line[0:8], 2)
